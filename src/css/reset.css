@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #87CEEA, #BEECA0);
+  min-height: 100vh;
+}
+body.modo-escuro {
+  background-image: linear-gradient(to bottom, #EDEEE9, #212121);
+}
